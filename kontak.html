@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css"
+		media="all" href="style.css">
+	</head>
+<!--Header_section--> 
+
+<!--Body_section--> 	
+<body bgcolor="tomato">
+		<div class="judul">
+			<center>
+			<h2>"QUEEN STORE"</h2>
+			</center>
+		</div>
+		<div class="menu">
+		<center>
+			<ul>
+				<li><a href="index.html">RUMAH</a></li>
+				<li><a href="produk.html">TOKO</a></li>
+				<li><a href="profil.html">PROFIL</a></li>
+				<li><a href="kontak.html">KONTAK</a></li>
+			</ul>
+            </center>
+</div>
+	<div class="kontak">
+		<center>
+			<h2>CONTACT PERSON</h2>
+			
+			<p>IG  : @QUEENSTORE63</p>
+            <html>
+	<head>
+<title>FORM PENGIRIMAN</title>
+	<body>
+		<form action="form.php" method="post">
+		  <p>
+				<label for="firstname"> NAMA : </label>
+					<input type="text" id="firstname" name="firstname"><br/>
+				<label for="lastname">KODE BARANG : </label>
+					<input type="text" id="lastname" name="lastname"><br />
+				<label for="email">NO TELP : </label>
+					<input type="text" id="email"><br>				
+				<!--range-->
+				
+				<!--date-->
+				ALAMAT : <input type="date-time-local"name = datetime-local"/>
+				<br>
+				
+				<!--Number-->
+				KODE POS : : <input type = "number" min= "0" max="10" step "1"
+								newinput"/>
+		  <p>PENGIRIMAN KE 
+			<select name="opt">
+				<option value="tambah">JAWA TIMUR</option>
+				<option value="kurang">JAWA TENGAH</option>
+				<option value="kali">JAWA BARAT</option>
+				<option value="bagi">JAKARTA</option>
+			</select>
+            	<!--URL--> : 
+				<input type = "submit" value= "send">
+                <input type= "RESET">
+		  </p>
+</form>
+</body>
+</html>

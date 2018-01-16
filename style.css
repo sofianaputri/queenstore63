@@ -1,0 +1,116 @@
+/* Style */
+
+.judul h2{
+	font-family: comic sans ms;
+	font-size: 50px;
+	color: purple;
+	margin-top: 30px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: red;
+	font-size: 30px;
+	padding: 20px;
+	
+}
+
+.menu ul li{
+	display: inline;
+	padding: 10px;
+	height: 30px;
+	background: pink;
+}
+
+.selamat h2{
+	font-family: comic sans ms;
+	font-size: 30px;
+	color: purple;
+	margin-top: 30px;
+	
+}
+
+.selamat img{
+	width: 500px;
+	height: 500px;
+}
+
+#sidebar{
+	background-color: tomato;
+	font-family: comic sans ms;
+	color: purple;
+	text-align: center;
+	font-size: 20px;
+}
+
+#header_wrapper h1{
+	font-family: comic sans ms;
+	text-align: center; 
+	background-color: red; 
+	color: white;
+	font-size: 50px;
+}
+
+.header_wrapper h1{
+	font-family: Comic sans ms;
+	text-align: center; 
+	background-color: red; 
+	color: black;
+	font-size: 50px;
+}
+
+.isi h1{
+	font-family: Monotype Corsiva;
+	text-align: center; 
+	background-color: red; 
+	color: black;
+	font-size: 50px;
+}
+
+.isi img{
+	width: 500px;
+	height: 500px;
+}
+
+.isi p{
+	width: 500px;
+	height: 150px;
+	font-size: 20px;
+	font-family: comic sans ms;
+}
+
+.menu img{
+	width: 400px;
+	height: 350px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.menu h2{
+	font-size: 30px;
+}
+
+.menu h5{
+	font-size: 20px;
+}
+
+.menu p{
+	font-size: 20px;
+}
+
+.kontak img{
+	width: 370px;
+	height: 500px;
+}
+
+.kontak p{
+	font-family: comic sans ms;
+	font-size: 20px;
+	
+}
+
+.kontak h2{
+	color: purple;
+	font-family: comic sans ms;
+	font-size: 30px;
+}
